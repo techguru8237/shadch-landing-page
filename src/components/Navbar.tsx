@@ -16,7 +16,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
+import logoIcon from '@/assets/logo.png'
 
 interface RouteProps {
   href: string;
@@ -54,8 +54,8 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              <LogoIcon />
-              ShadcnUI/React
+              <img src={logoIcon} alt="logo icon" className="w-12" />
+              AmazHub
             </a>
           </NavigationMenuItem>
 
@@ -63,10 +63,7 @@ export const Navbar = () => {
           <span className="flex md:hidden">
             <ModeToggle />
 
-            <Sheet
-              open={isOpen}
-              onOpenChange={setIsOpen}
-            >
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger className="px-2">
                 <Menu
                   className="flex md:hidden h-5 w-5"

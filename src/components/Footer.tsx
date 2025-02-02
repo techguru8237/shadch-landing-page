@@ -1,4 +1,4 @@
-import { LogoIcon } from "./Icons";
+import logoIcon from "@/assets/logo.png";
 
 export const Footer = () => {
   return (
@@ -12,8 +12,8 @@ export const Footer = () => {
             href="/"
             className="font-bold text-xl flex"
           >
-            <LogoIcon />
-            ShadcnUI/React
+            <img src={logoIcon} alt="logo icon" className="w-12" />
+            AmazHub
           </a>
         </div>
 
