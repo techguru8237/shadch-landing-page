@@ -2,9 +2,9 @@
 
 ## <a href="https://ui.shadcn.com/" target="_blank">ShadcnUI</a> + <a href="https://react.dev/" target="_blank">React</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
 
-![shadch-landing-page](https://github.com/techguru8237/shadch-landing-page.git)
+![shadch-landing-page](https://github.com/techguru8237/shadch-landing-page.git/src/assets/cover.png)
 
-Build your React landing page effortlessly with the required sections to your project. <a href="https://shadcn-landing-page.vercel.app/" target="_blank">Live Demo</a>
+Build your React landing page effortlessly with the required sections to your project. <a href="https://vercel.com/techguru8237s-projects/shadch-landing-page" target="_blank">Live Demo</a>
 
 ## Sections
 
@@ -37,7 +37,7 @@ Build your React landing page effortlessly with the required sections to your pr
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/leoMirandaa/shadcn-landing-page.git
+git clone https://github.com/techguru8237/shadch-landing-page.git
 ```
 
 2. Go into project
